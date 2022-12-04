@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
   <script src="https://unpkg.com/phosphor-icons"></script>
   <link rel="stylesheet" href="style.css">
   <title>Navigation Bar</title>
@@ -45,7 +46,7 @@
             <li>Extensions</li>
             <li>Help</li>
             <li class="relative">
-              <span>Last edit was 29 minutes ago</span>
+              <span class="hide">Last edit was 29 minutes ago</span>
               <span class="tooltip">Open the version history</span>
             </li>
           </ul>
@@ -71,8 +72,18 @@
         </ul>
       </div>
     </div>
+    <button class="nav-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
   </nav>
-
+  <div class="nav-mobile">
+    <h3>User Settings</h3>
+    <h3>Google Meet</h3>
+    <h3>Share this doc</h3>
+    <h3>Comments</h3>
+    <h3>User Settings</h3>
+    <h3>Edit history</h3>
+  </div>
   <!-- javascript  -->
   <script src="script.js"></script>
 </body>
